@@ -1,1 +1,3 @@
-# python_scripts
+# Python Scripts
+
+Different scripts to manage different things in OS.
