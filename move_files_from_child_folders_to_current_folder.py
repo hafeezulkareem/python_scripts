@@ -9,8 +9,6 @@ def move_files_from_child_folders_to_current_folder(path):
             for file in files:
                 shutil.move(os.path.join(root_folder, file), path)
         print("Moved files successfully")
-
-        delete_empty_folders(path)
     else:
         print("Path doesn't exists")
 
